@@ -1,0 +1,123 @@
+/*Start Strategy*/
+.section-title{
+    text-align: center;
+    font-size: 36px;
+    font-family: Ubuntu-M;
+    color: #171C38;
+    position: relative;
+   
+}
+
+.section-title::before{
+    content: "";
+position: absolute;
+bottom: 35%;
+left: 50%;
+transform: translateX(-50%);
+width: 150px;
+height: 6px;
+background-color: #FF1C26;
+font-weight: bold;
+}
+
+
+/*End My Css Code*/
+
+
+.our-strategy{
+    padding-top: 170px;
+    padding-bottom: 50px;
+}
+
+.our-strategy .strategy-p-1{
+    font-size: 40px;
+    padding-bottom: 50px;
+    width: 65%;
+    font-family: Ubuntu-B;
+}
+.our-strategy .strategy-p-1 span{
+    color: #FF1C26;
+}
+
+.our-strategy .strategy-p-2{
+    font-size: 26px;
+    width: 65%;
+    font-family: Ubuntu-L;
+    line-height: 1.7em;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1300px) {
+    .our-strategy .strategy-p-1{
+        font-size: 40px;
+        padding-bottom: 50px;
+        width: 95%;
+        font-family: Ubuntu-B;
+    }
+    .our-strategy .strategy-p-2{
+        font-size: 24px;
+        width: 95%;
+        font-family: Ubuntu-L;
+        line-height: 1.7em;
+        font-weight: 600;
+        padding-bottom: 70px;
+    }
+    
+}
+
+@media screen and (max-width:992.5px) {
+    .our-strategy .strategy-p-1{
+        font-size: 45px;
+        padding-bottom: 50px;
+        width: 100%;
+        font-family: Ubuntu-B;
+    }
+    .our-strategy .strategy-p-2{
+        font-size: 30px;
+        width: 100%;
+        font-family: Ubuntu-L;
+        line-height: 1.7em;
+        font-weight: 600;
+        padding-bottom: 70px;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    .our-strategy .strategy-p-1{
+        font-size: 40px;
+        padding-bottom: 50px;
+        width: 100%;
+        font-family: Ubuntu-B;
+    }
+    .our-strategy .strategy-p-2{
+        font-size: 24px;
+        width: 100%;
+        font-family: Ubuntu-L;
+        line-height: 1.7em;
+        font-weight: 600;
+        padding-bottom: 70px;
+    }
+    
+}
+
+@media screen and (max-width:425px) {
+    .our-strategy .strategy-p-1{
+        font-size: 30px;
+        padding-bottom: 50px;
+        width: 100%;
+        font-family: Ubuntu-B;
+    }
+    .our-strategy .strategy-p-2{
+        font-size: 22px;
+        width: 100%;
+        font-family: Ubuntu-L;
+        line-height: 1.7em;
+        font-weight: 600;
+        padding-bottom: 70px;
+    }
+    
+}
+
+
+/*End Strategy*/

@@ -1,0 +1,1710 @@
+body{
+    perspective: 1000px;
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu-R
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+/*Start Navbar*/
+
+.start{
+    background-color: #171C38;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+
+.start .navbar {
+    z-index: 4;
+    position: absolute;
+    padding: 0;
+    position: relative;
+    
+}
+section .navbar:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	height: 4px;
+	background-color: #FF1C26;
+}
+
+
+.mobile-app .navbar {
+    z-index: 4;
+    position: absolute;
+    padding: 0;
+    position: relative;
+    padding-top: 50px;
+    
+}
+.dropdown .dropdown-menu{
+    background-color: rgba(23, 28, 56, 0.8);
+    border-radius: 10px;
+    width: auto;
+    left: -10px;
+}
+.dropdown .dropdown-toggle::after{
+    vertical-align: 0.050em;
+    
+}
+
+.dropdown .dropdown-menu .dropdown-item{
+    color: #FFF;
+    font-family: Ubuntu-R;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+    color: #FF1C26;
+    background-color: transparent;
+}
+.dropdown .dropdown-menu li{
+    margin-left: 0px;
+    
+}
+
+.digital-mar .navbar {
+    z-index: 4;
+    position: absolute;
+    padding: 0;
+    position: relative;
+    padding-top: 50px;
+    
+}
+
+.start .navbar .logo{
+    height:auto;
+    max-width:219px;
+    min-width: 100px;
+    flex-grow: 4;
+}
+.mobile-app .navbar .logo{
+    height:auto;
+    max-width:240px;
+    min-width: 100px;
+    flex-grow: 4;
+}
+.digital-mar .navbar .logo{
+    height:auto;
+    max-width:240px;
+    min-width: 100px;
+    flex-grow: 4;
+}
+.start .navbar .logo img{
+    width:100%;
+    height:100%
+}
+.start .navbar .navbar-collapse {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF
+}
+.start .navbar .navbar-collapse li{
+    margin-left:20px;
+}
+.mobile-app .navbar .navbar-collapse li{
+    margin-left:20px;
+    padding-right: 20px;
+}
+.digital-mar .navbar .navbar-collapse li{
+    margin-left:20px;
+    padding-right: 20px;
+}
+.start .navbar .nav-item .nav-link {
+    color: #FFF;
+    font-size: 20px;
+    text-transform:capitalize;
+    font-family: Ubuntu-M;
+}
+
+.mobile-app .navbar .nav-item .nav-link {
+    color: #FFF;
+    font-size: 25px;
+    text-transform:capitalize;
+    font-family: Ubuntu-M;
+}
+.digital-mar .navbar .nav-item .nav-link {
+    color: #FFF;
+    font-size: 25px;
+    text-transform:capitalize;
+    font-family: Ubuntu-M;
+}
+.start .navbar .nav-item .nav-link:hover{
+    color: #FF1C26
+}
+.start .navbar-toggler-icon{
+    color: #FFF;
+}
+
+.navbar-nav {
+    margin-inline-start: auto;
+}
+
+@media only screen and (max-width:333px) {
+    .start .navbar .logo{
+        height:auto;
+        max-width:150px;
+        min-width: 100px;
+        flex-grow: 4;
+    }
+}
+/*End Navbar*/
+
+.start .head-text-1{
+    margin-top:22%;
+    color: #FFF;
+}
+.start .head-text-1  h2 {
+    font-size: 57px;
+    font-weight:500;
+    font-family: Ubuntu-M;
+    position: relative
+}
+.start .head-text-1 h2:before {
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 19%;
+	transform: translateX(-50%);
+	width: 38%;
+	height: 4px;
+	background-color: #FF1C26;
+}
+.start .head-text-1 span{
+    color:#FF1C26;
+    font-family: Ubuntu-M;
+}
+.start .head-text-1 p {
+    font-size: 32px;
+    font-family: Ubuntu-L;
+    margin-top: 90px;
+}
+
+
+.start .head-img img{
+    width: 100%;
+}
+.start .head-img-1 img{
+    width: 100%;
+}
+.start .head-img{
+    margin-top: 150px;
+}
+
+.digital-mar .head-img{
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1140px) {
+    .start .head-text-1 p {
+        font-size: 30px;
+        font-family: Ubuntu-L;
+        margin-top: 90px;
+    }
+
+    .start .head-text-1  h2 {
+        font-size: 50px;
+        font-weight:500;
+        font-family: Ubuntu-M;
+        position: relative
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+    .start .head-text-1 p {
+        font-size: 37px;
+        font-family: Ubuntu-L;
+        margin-top: 90px;
+    }
+
+    .start .head-text-1  h2 {
+        font-size: 57px;
+        font-weight:500;
+        font-family: Ubuntu-M;
+        position: relative
+    }
+
+    .start .head-img{
+        margin-top: 50px;
+    }
+    .digital-mar .head-img img{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:767.5px) {
+
+    .digital-mar .head-img img{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:570px) {
+    .start .head-text-1 p {
+        font-size: 34px;
+        font-family: Ubuntu-L;
+        margin-top: 90px;
+    }
+
+    .start .head-text-1  h2 {
+        font-size: 50px;
+        font-weight:500;
+        font-family: Ubuntu-M;
+        position: relative
+    }
+    .start .head-img{
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (max-width:420px) {
+    .start .head-text-1 p {
+        font-size: 25px;
+        font-family: Ubuntu-L;
+        margin-top: 90px;
+    }
+
+    .start .head-text-1  h2 {
+        font-size: 36px;
+        font-weight:500;
+        font-family: Ubuntu-M;
+        position: relative
+    }
+
+    .start .head-img{
+        margin-top: 30px;
+    }
+    
+}
+
+/*End First-Section*/
+
+/*Start Mobile-Section*/
+
+.mobile-second .mobile-image img{
+width: 50%;
+padding: 20px;
+}
+
+
+.logo-icon img{
+    width: 90%;
+    object-fit: cover;
+   
+}
+
+.img-title{
+    font-family: Ubuntu-B;
+}
+
+.par-1{
+    font-size: 25px;
+    font-family: Ubuntu-M;
+}
+
+.par-2{
+    font-size: 21px;
+    font-family: Ubuntu-M;
+}
+
+.par-2 span{
+    color: #FF1C26;
+    
+}
+.par-2 b{
+    color: #FF1C26;
+    font-size: 20px;
+}
+
+.par-1 span{
+    color: #FF1C26;
+    font-size: 20px;
+}
+
+.par-1 b{
+    color: #FF1C26;
+    font-size: 22px;
+}
+
+.mob-button{
+   
+    font-size: 21px;
+    font-family: Ubuntu-R;
+    margin-bottom: 50px;
+    
+}
+
+@media screen and (max-width:1400px) {
+
+    .mobile-second .mobile-image img{
+            width: 60%;
+            padding: 0px;
+        } 
+
+    .logo-icon img{
+            width: 90%;
+            object-fit: cover;
+        }
+        .mobile-app .navbar .logo{
+            height:auto;
+            max-width:220px;
+            min-width: 100px;
+            flex-grow: 4;
+        }
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .mobile-second .mobile-image img{
+            width: 70%;
+            padding: 0px;
+        } 
+
+    .logo-icon img{
+            width: 90%;
+            object-fit: cover;
+        }
+        .mobile-app .navbar .logo{
+            height:auto;
+            max-width:220px;
+            min-width: 100px;
+            flex-grow: 4;
+        }
+}
+
+@media screen and (max-width:991.5px) {
+
+    .mobile-second .mobile-image img{
+        width: 90%;
+        padding: 0px;
+        }
+         
+        .logo-icon img{
+            width: 90%;
+            object-fit: cover;
+        }
+}
+@media screen and (max-width:767.5px) {
+
+    .mobile-second .mobile-image img{
+        width: 70%;
+        padding: 0px;
+        }
+         
+        .logo-icon img{
+            width: 55%;
+            object-fit: cover;
+        }
+}
+@media screen and (max-width:400px) {
+
+    .mobile-second .mobile-image img{
+        width: 100%;
+        padding: 0px;
+        }
+         
+        .logo-icon img{
+            width: 85%;
+            object-fit: cover;
+        }
+        .mobile-app .navbar .logo{
+            height:auto;
+            max-width:200px;
+            min-width: 60px;
+            flex-grow: 4;
+        }
+}
+
+@media screen and (max-width:315px) {
+         
+        .logo-icon img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .mobile-app .navbar .logo{
+            height:auto;
+            max-width:170px;
+            min-width: 60px;
+            flex-grow: 4;
+        }
+}
+
+
+/*End Mobile-Section*/
+
+
+/*Start Digital-Section*/
+
+
+.digital-second{
+
+    padding-top: 20px;
+}
+
+
+#owl-two .owl-item.center .item img{
+    transform: scale(1);
+    object-fit: cover;
+}
+
+
+
+#owl-two .owl-item .item img{
+    transform: scale(0.7);
+}
+
+.digital-back{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url('/assets/images/Digital-mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 27% 100%;
+    object-fit: cover;
+    
+}
+
+.digital-button{
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: Ubuntu-M;
+    background-color: rgb(0, 60, 255);
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1300px) {
+    #owl-two .owl-item.center .item img{
+        transform: scale(1.2);
+        object-fit: cover;
+    }
+    
+    
+    
+    #owl-two .owl-item .item img{
+        transform: scale(0.7);
+    }
+    
+    .digital-back{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 31% 100%;
+        object-fit: cover;
+        
+    }
+}
+
+
+@media screen and (max-width:1199.5px) {
+    .digital-back{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 35% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(1);
+        object-fit: cover;
+    }
+    
+    
+    
+    #owl-two .owl-item .item img{
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width:1065px) {
+    .digital-back{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 36% 100%;
+        object-fit: cover;
+        
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .digital-back{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 37% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(1.1);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:959.5px) {
+    .digital-back{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(1);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .digital-back{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 53% 100%;
+        object-fit: cover;
+        
+    }
+}
+
+@media screen and (max-width:720px) {
+    .digital-back{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 55% 100%;
+        object-fit: cover;
+        
+    }
+}
+
+@media screen and (max-width:665px) {
+    .digital-back{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 57% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(1.1);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .digital-back{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(1.13);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .digital-back{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 63% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(1.28);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .digital-back{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 85% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(0.8);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .digital-back{
+        padding-top: 140px;
+        padding-bottom: 140px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 95% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(0.9);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .digital-back{
+        padding-top: 130px;
+        padding-bottom: 130px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 98% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(0.9);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .digital-back{
+        padding-top: 125px;
+        padding-bottom: 125px;
+        background-image: url('/assets/images/Digital-mobile.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 98% 100%;
+        object-fit: cover;
+        
+    }
+    #owl-two .owl-item.center .item img{
+        transform: scale(0.96);
+        object-fit: cover;
+    }
+}
+
+/*End Digital-Section*/
+
+
+
+
+/*Start Web-Section*/
+
+.section-title{
+    text-align: center;
+    font-size: 36px;
+    font-family: Ubuntu-M;
+    color: #171C38;
+    position: relative;
+   
+}
+
+.section-title::before{
+    content: "";
+position: absolute;
+bottom: 35%;
+left: 50%;
+transform: translateX(-50%);
+width: 150px;
+height: 6px;
+background-color: #FF1C26;
+font-weight: bold;
+}
+
+.card{
+    border: none;
+}
+.card-body{
+    padding: 1rem 0rem;
+}
+.card-title{
+    font-family: Ubuntu-B;
+    font-size: 26px;
+}
+.card-text{
+    font-family: Ubuntu-B;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+/*End Web-Section*/
+
+/*Start Web-Dev Section*/
+#owl-one .owl-prev{
+    left: 0px;
+}
+#owl-one .owl-next{
+    right: 30px;
+}
+#owl-one .owl-prev, .owl-next{
+    position: absolute;
+    top: 30%;
+}
+.item img{
+    margin: 5px;
+    padding: 15px;
+    transition: all .5s;
+}
+.item img:hover{
+    transform: scale(1.1);
+}
+#owl-one .owl-theme .owl-nav [class*="owl-"]:hover{
+    background-color: transparent;
+}
+
+#owl-one .owl-item.center .item img{
+    transform: scale(1.8);
+    object-fit: cover;
+}
+
+
+
+#owl-one .owl-item .item img{
+    transform: scale(0.7);
+}
+
+#owl-one .owl-stage-outer{
+    height: 635px;
+}
+#owl-one .owl-stage{ 
+    padding-top: 100px;
+}
+
+#owl-one .nav-btn{
+    height: 80px;
+    position: absolute;
+    border-radius: 10px;
+    width: 35px;
+    cursor: pointer;
+    top: 50px !important;
+    background-color: #01d662;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+
+ .sec{
+    border: none;
+    background-color: transparent;
+}
+ .sec-body{
+   /* padding: 10rem 0rem;*/
+   padding-top: 30px;
+   margin-left: 60px;
+   width: 580px;
+  
+}
+#owl-one .sec-title{
+    font-family: Ubuntu-B;
+    font-size: 39px;
+}
+.sec-title-1{
+    font-size: 33px;
+    font-family: Ubuntu-B;
+}
+#owl-one .sec-text{
+    font-family: Ubuntu-M;
+    font-size: 27px;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+}
+
+#owl-one .sec-text-1{
+    font-family: Ubuntu-M;
+    font-size: 27px;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+}
+
+.side{
+    float: right;
+    padding: 13px 50px;
+    font-size: 25px;
+    margin-top: -30px;
+    
+}
+.side-1{
+    float: right;
+    padding: 13px 50px;
+    font-size: 25px;
+    margin-top: -30px;
+    
+}
+
+#owl-one .owl-item .item .sec-body{
+   opacity: 0;
+}
+
+#owl-one .owl-item.center .item .sec-body{
+    opacity: 1;
+}
+
+#owl-one .owl-item .item .sec{
+    background-color: transparent;
+}
+
+
+@media screen and (max-width:1300px) {
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 40px;
+        width: 490px;
+       
+     }
+     #owl-one .owl-stage-outer{
+        height: 570px;
+    }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 33px;
+     }
+     .sec-title-1{
+         font-size: 28px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text-1{
+        font-family: Ubuntu-M;
+        font-size: 22px;
+        margin-bottom: 5px;
+        display: block;
+        width: 100%;
+    }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 24px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 10px 40px;
+         font-size: 23px;
+         margin-top: -30px;
+         
+     }
+     .side-1{
+        float: right;
+        padding: 10px 40px;
+        font-size: 23px;
+        margin-top: -30px;
+        
+    }
+}
+
+
+
+
+ @media screen and (max-width:1200px){
+    
+    #owl-one .owl-stage-outer{
+        height: 510px;
+    }
+    #owl-one .owl-stage{ 
+        padding-top: 80px;
+    }
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 40px;
+        width: 450px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 33px;
+     }
+     .sec-title-1{
+         font-size: 26px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 22px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 8px 35px;
+         font-size: 22px;
+         margin-top: -30px;
+         
+     }
+     .side-1{
+        float: right;
+        padding: 8px 35px;
+        font-size: 22px;
+        margin-top: -30px;
+        
+    }
+ }
+
+ @media screen and (max-width:1100px) {
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 35px;
+        width: 440px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 31px;
+     }
+     .sec-title-1{
+         font-size: 25px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 22px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 7px 35px;
+         font-size: 23px;
+         margin-top: -20px;
+         
+     }
+     .side-1{
+        float: right;
+        padding: 7px 35px;
+        font-size: 23px;
+        margin-top: -20px;
+        
+    }
+}
+
+@media screen and (max-width:1075px) {
+    #owl-one .owl-stage-outer{
+        height: 470px;
+    }
+
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 35px;
+        width: 410px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 31px;
+     }
+     .sec-title-1{
+         font-size: 23px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 18px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 5px 25px;
+         font-size: 21px;
+         margin-top: -20px;
+         
+     }
+     .side-1{
+        float: right;
+        padding: 5px 25px;
+        font-size: 21px;
+        margin-top: -20px;
+        
+    }
+}
+
+@media screen and (max-width:961px) {
+    #owl-one .owl-stage-outer{
+        height: 500px;
+    }
+
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 35px;
+        width: 380px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 31px;
+     }
+     .sec-title-1{
+         font-size: 22px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 17px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 4px 20px;
+         font-size: 19px;
+         margin-top: -20px;
+         
+     }
+     .side-1{
+        float: right;
+        padding: 4px 20px;
+        font-size: 19px;
+        margin-top: -20px;
+        
+    }
+}
+
+@media screen and (max-width:959.9px) {
+    #owl-one .owl-stage-outer{
+        height: 550px;
+        padding-top: 20px;
+    }
+
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 10px;
+        margin-left: 40px;
+        width: 490px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 31px;
+     }
+     .sec-title-1{
+         font-size: 25px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 19px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 5px 30px;
+         font-size: 21px;
+         margin-top: -20px;
+         
+     }
+     .side-1{
+        float: right;
+        padding: 5px 30px;
+        font-size: 21px;
+        margin-top: -20px;
+        
+    }
+}
+
+
+@media screen and (max-width:840px) {
+    #owl-one .owl-stage-outer{
+        height: 520px;
+    }
+
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 35px;
+        width: 430px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 31px;
+     }
+     .sec-title-1{
+         font-size: 24px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 19px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 7px 35px;
+         font-size: 23px;
+         margin-top: -25px;
+         
+     }
+}
+
+@media screen and (max-width:740px) {
+    #owl-one .owl-stage-outer{
+        height: 500px;
+    }
+
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 30px;
+        width: 380px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 31px;
+     }
+     .sec-title-1{
+         font-size: 23px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 17px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 5px 25px;
+         font-size: 18px;
+         margin-top: -20px;
+         
+     }
+
+     .side-1{
+        float: right;
+        padding: 5px 25px;
+        font-size: 18px;
+        margin-top: -20px;
+        
+    }
+}
+
+
+
+ @media screen and (max-width:700px){
+    #owl-one .owl-stage-outer{
+        height: 470px;
+    }
+    #owl-one .owl-stage{ 
+        padding-top: 70px;
+    }
+
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 35px;
+        width: 360px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 29px;
+     }
+     .sec-title-1{
+         font-size: 22px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 17px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 5px 20px;
+         font-size: 21px;
+         margin-top: -20px;
+         
+     }
+ }
+
+ @media screen and (max-width:630px){
+    #owl-one .owl-stage-outer{
+        height: 420px;
+    }
+    #owl-one .owl-stage{ 
+        padding-top: 70px;
+    }
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 90px;
+        margin-left: -45px;
+        width: 320px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 29px;
+     }
+     .sec-title-1{
+         font-size: 20px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 17px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     #owl-one .sec-text-1{
+        font-family: Ubuntu-M;
+        font-size: 17px;
+        margin-bottom: 5px;
+        display: block;
+        width: 100%;
+    }
+     .side{
+         float: right;
+         padding: 4px 15px;
+         font-size: 17px;
+         margin-top: -20px;
+         
+     }
+     .side-1{
+        float: right;
+        padding: 4px 15px;
+        font-size: 17px;
+        margin-top: -20px;
+        
+    }
+ }
+
+ @media screen and (max-width:540px){
+    #owl-one .owl-stage-outer{
+        height: 370px;
+    }
+    #owl-one .owl-stage{ 
+        padding-top: 50px;
+    }
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 30px;
+        width: 300px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 24px;
+     }
+     .sec-title-1{
+         font-size: 19px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 17px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     #owl-one .sec-text-1{
+        font-family: Ubuntu-M;
+        font-size: 16px;
+        margin-bottom: 5px;
+        display: block;
+        width: 100%;
+    }
+     .side{
+         float: right;
+         padding: 3px 10px;
+         font-size: 17px;
+         margin-top: -15px;
+         
+     }
+ }
+
+
+ @media screen and (max-width:486px){
+
+    #owl-one .owl-item.center .item img{
+        transform: scale(1.085);
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #owl-one .owl-item .item img{
+        transform: scale(1);
+    }
+
+    #owl-one .owl-stage-outer{
+        height: 100%;
+    }
+
+    #owl-one .owl-stage{ 
+        padding-top: 20px;
+    }
+     
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 45px;
+        width: 300px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 24px;
+     }
+     .sec-title-1{
+         font-size: 19px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 17px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     #owl-one .sec-text-1{
+        font-family: Ubuntu-M;
+        font-size: 16px;
+        margin-bottom: 5px;
+        display: block;
+        width: 100%;
+    }
+     .side{
+         float: right;
+         padding: 3px 15px;
+         font-size: 19px;
+         margin-top: -15px;
+         
+     }
+ }
+
+ @media screen and (max-width:420px){
+
+    #owl-one .owl-item.center .item img{
+        transform: scale(1);
+        width: 100%;
+        object-fit: cover;
+    }
+    
+
+    #owl-one .owl-stage{ 
+        padding-top: 0px;
+    }
+     
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 30px;
+        width: 260px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 24px;
+     }
+     .sec-title-1{
+         font-size: 17px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 16px;
+         margin-bottom: 5px;
+         display: block;
+         width: 100%;
+     }
+     .side{
+         float: right;
+         padding: 2px 8px;
+         font-size: 16  px;
+         margin-top: -13px;
+         
+     }
+
+     .side-1{
+        float: right;
+        padding: 2px 8px;
+        font-size: 16px;
+        margin-top: -12px;
+        
+    }
+ }
+
+ @media screen and (max-width:375px){
+     
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 20px;
+        width: 235px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 24px;
+     }
+     .sec-title-1{
+         font-size: 17px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 15px;
+         margin-bottom: 5px;
+         margin-top: 15px;
+         display: block;
+         width: 100%;
+     }
+     #owl-one .sec-text-1{
+        font-family: Ubuntu-M;
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+    }
+     .side{
+         float: right;
+         padding: 2px 7px;
+         font-size: 16px;
+         margin-top: -10px;
+         
+     }
+     .side-1{
+        float: right;
+        padding: 2px 7px;
+        font-size: 16px;
+        margin-top: -10px;
+        
+    }
+ }
+
+ @media screen and (max-width:320px){
+     
+    #owl-one .sec-body{
+        /* padding: 10rem 0rem;*/
+        padding-top: 5px;
+        margin-left: 10px;
+        width: 215px;
+       
+     }
+     #owl-one .sec-title{
+         font-family: Ubuntu-B;
+         font-size: 24px;
+     }
+     .sec-title-1{
+         font-size: 17px;
+         font-family: Ubuntu-B;
+     }
+     #owl-one .sec-text{
+         font-family: Ubuntu-M;
+         font-size: 15px;
+         margin-bottom: 5px;
+         margin-top: 15px;
+         display: block;
+         width: 100%;
+     }
+     #owl-one .sec-text-1{
+        font-family: Ubuntu-M;
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+    }
+     .side{
+         float: right;
+         padding: 2px 7px;
+         font-size: 16px;
+         margin-top: -10px;
+         
+     }
+     .side-1{
+        float: right;
+        padding: 2px 7px;
+        font-size: 16px;
+        margin-top: -10px;
+        
+    }
+ }
+/*End Web-Dev Section*/
+
+/*Start Footer*/
+
+footer {
+    color: #fff;
+}
+footer h4 {
+    color: #FF1C26;
+    padding-bottom: 30px;
+    font-size: 26px;
+}
+footer ul {
+    padding: 0px;
+}
+footer ol, ul {
+    margin-bottom: 0px;
+}
+footer .social-icon {
+    padding: 0;
+    margin-bottom: 0px;
+    justify-content: space-between
+}
+footer .social-icon li {
+    list-style: none;
+    display: inline-block;
+}
+footer .social-icon li i {
+    font-size: 16px;
+    color: #171C38;
+    border: solid 2px #ffffff;
+    height: 29px;
+    width: 29px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100px;
+    line-height: 1.5;
+    transition: 1s;
+    background: #fff;
+    margin: 5px;
+}
+footer .social-icon li i:hover {
+    border: solid 2px #171C38;
+    color: #ffffff;
+    background: #171C38;
+}
+footer .footer-top {
+    background: #171C38;
+    padding: 50px 0 30px;
+}
+footer .map iframe{
+    width: 95%;
+    height: 320px;
+    object-fit: cover;
+    padding-right: 60px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+footer .address1 li {
+    list-style: none;
+    position: relative;
+    padding: 0px 0 14px 34px;
+    line-height: 1.8;
+}
+footer .address1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer ul.address1 i {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    font-size: 18px;
+    top: 0;
+}
+footer .address1 li i:hover {
+    color: #FF1C26;
+    border-color: red;
+}
+footer ul.address1 i.fa-envelope {
+    font-size: 18px;
+    top: 4px;
+}
+footer ul.social-icon {
+    float: left;
+    margin-bottom: 20px;
+}
+footer .social-icon li i:hover {
+    background: #FF1C26;
+    border-color: #FF1C26;
+}
+footer .copyright {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top:30px;
+}
+footer .copyright a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF
+}
+footer .copyright a:hover {
+    color:  #FF1C26;
+    text-decoration: none
+}
+
+/*End Footer*/
+
+
+

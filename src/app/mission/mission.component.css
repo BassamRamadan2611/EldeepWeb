@@ -1,0 +1,117 @@
+
+
+/*Start Missions*/
+.section-title{
+    text-align: center;
+    font-size: 36px;
+    font-family: Ubuntu-M;
+    color: #171C38;
+    position: relative;
+   
+}
+
+.section-title::before{
+    content: "";
+position: absolute;
+bottom: 35%;
+left: 50%;
+transform: translateX(-50%);
+width: 150px;
+height: 6px;
+background-color: #FF1C26;
+font-weight: bold;
+}
+
+
+/*End My Css Code*/
+
+.our-mission{
+    background-color: #171C38;
+    color: #FFF;
+
+}
+
+.img-mission img{
+    width: 100%;
+    height: 80%;
+    
+}
+
+.p-mission{
+    font-size: 28px;
+    font-family: Ubuntu-L;
+    width: 80%;
+    line-height: 2em;
+    word-spacing: 5px;
+    font-weight: 300;
+}
+.p-mission span{
+    color: #FF1C26;
+    font-family: Ubuntu-M;
+}
+.mission-text a{
+margin-top: 50px;
+padding: 5px 20px;
+font-size: 20px;
+font-family: Ubuntu-B;
+border-radius: 6px;
+color: #171C38;
+}
+
+@media screen and (max-width:1400px) {
+    .img-mission img{
+        width: 100%;
+        height: 80%;
+    }
+    .p-mission{
+        font-size: 26px;
+        font-family: Ubuntu-L;
+        width: 100%;
+        line-height: 2em;
+        word-spacing: 5px;
+        font-weight: 300;
+    }
+    
+}
+
+
+@media screen and (max-width:992.5px) {
+    .img-mission img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .p-mission{
+        font-size: 31px;
+        font-family: Ubuntu-L;
+        width: 100%;
+        line-height: 2.5em;
+        word-spacing: 5px;
+        font-weight: 300;
+    }
+    
+}
+@media screen and (max-width:767.5px) {
+    .p-mission{
+        font-size: 30px;
+        font-family: Ubuntu-L;
+        width: 100%;
+        line-height: 2em;
+        word-spacing: 5px;
+        font-weight: 300;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .p-mission{
+        font-size: 26px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .p-mission{
+        font-size: 23px;
+    }
+    
+}
+/*End Missions*/

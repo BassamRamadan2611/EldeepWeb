@@ -1,0 +1,264 @@
+
+
+
+ .section-title{
+    text-align: center;
+    font-size: 36px;
+    font-family: Ubuntu-M;
+    color: #171C38;
+    position: relative;
+   
+}
+
+.section-title::before{
+    content: "";
+position: absolute;
+bottom: 35%;
+left: 50%;
+transform: translateX(-50%);
+width: 150px;
+height: 6px;
+background-color: #FF1C26;
+font-weight: bold;
+}
+
+a,p,h1,h2,h3,h4,ul {
+	margin: 0;
+	padding: 0;
+}
+.section-services {
+	padding-top: 110px;
+	padding-bottom: 120px;
+	font-family: Ubuntu-R;
+    z-index: 1;
+    position: relative;
+    color: #171C38;
+
+}
+
+
+
+.section-services .single-service {
+	margin-top: 100px;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    height: 280px;
+    color: #171C38;
+    
+   
+}
+
+
+.section-services .single-service .part-1 .imgs {
+    width: 22%;
+    height: auto;
+    margin-bottom: 20px;
+    
+   
+    
+}
+.section-services .single-service .part-1 .img-social {
+    width: 25%;
+    height: auto;
+    margin-bottom: 15px;
+    
+   
+    
+}
+.section-services .single-service .part-1 .mobile{
+    width: 13%;
+    height: auto;
+   margin-bottom: 15px;
+}
+
+.section-services .single-service .part-1 .title {
+	font-size: 21px;
+	letter-spacing: 0.02em;
+	line-height: 1.8em;
+    font-family: Ubuntu-B;
+}
+
+    
+
+.section-services .single-service .part-2 .description {
+	margin-bottom: 22px;
+	font-size: 16px;
+	line-height: 1.8em;
+    margin-top: 15px;
+    color: #171C38;
+    font-family: Ubuntu-R;
+}
+
+.section-services .single-service .part-2 a {
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.detail{
+    padding: 6px 40px;
+    border-radius: 7px;
+    font-size: 17px;
+    background-color: #171C38;
+    color: #fff;
+}
+
+@media screen and (max-width:1400px) {
+
+    .section-services .single-service {
+        margin-top: 40px;
+        z-index: 3;
+        position: relative;
+        text-align: center;
+        height: 280px;
+        color: #171C38;
+    }
+    .section-services .single-service .part-2 .digital-desc {
+        margin-bottom: 22px;
+        font-size: 15.6px;
+        line-height: 1.8em;
+        margin-top: 15px;
+        color: #171C38;
+        font-family: Ubuntu-R;
+        margin-top: 30px;
+    }
+    .section-services .single-service .part-1 .web {
+        font-size: 21px;
+        letter-spacing: 0.02em;
+        line-height: 1.1em;
+        font-family: Ubuntu-B;
+        margin-top: 0;
+    }
+    
+}
+
+
+@media screen and (max-width:1300px) {
+
+    .section-services .single-service {
+        margin-top: 40px;
+        z-index: 3;
+        position: relative;
+        text-align: center;
+        height: 280px;
+        color: #171C38;
+    }
+    .section-services .single-service .part-2 .digital-desc {
+        margin-bottom: 22px;
+        font-size: 15.6px;
+        line-height: 1.8em;
+        margin-top: 15px;
+        color: #171C38;
+        font-family: Ubuntu-R;
+        margin-top: 30px;
+    }
+    .section-services .single-service .part-1 .web {
+        font-size: 21px;
+        letter-spacing: 0.02em;
+        line-height: 1.1em;
+        font-family: Ubuntu-B;
+        margin-top: 0;
+    }
+
+    
+}
+
+@media screen and (max-width:1267px) {
+
+    .section-services .single-service {
+        margin-top: 40px;
+        z-index: 3;
+        position: relative;
+        text-align: center;
+        height: 280px;
+        color: #171C38;
+    }
+
+
+    .section-services .single-service .part-1 .title {
+        font-size: 21px;
+        letter-spacing: 0.02em;
+        line-height: 1.8em;
+        font-family: Ubuntu-B;
+        margin-top: 10px;
+       
+       
+    }
+        
+    .section-services .single-service .part-2 .description {
+        margin-bottom: 22px;
+        font-size: 15.6px;
+        line-height: 1.8em;
+        margin-top: 15px;
+        color: #171C38;
+        font-family: Ubuntu-R;
+    }
+
+    .section-services .single-service .part-1 .web {
+        font-size: 21px;
+        letter-spacing: 0.02em;
+        line-height: 1.2em;
+        font-family: Ubuntu-B;
+        margin-top: 0;
+    }
+
+    .section-services .single-service .part-2 .digital-desc {
+        margin-bottom: 22px;
+        font-size: 15.6px;
+        line-height: 1.8em;
+        margin-top: 15px;
+        color: #171C38;
+        font-family: Ubuntu-R;
+        margin-top: 20px;
+    }
+        
+}
+
+@media screen and (max-width:1200px) {
+
+    
+    .section-services .single-service {
+        margin-top: 40px;
+        z-index: 3;
+        position: relative;
+        text-align: center;
+        height: 300px;
+        color: #171C38;
+    }
+    .section-services .single-service .part-1 .title {
+        font-size: 21px;
+        letter-spacing: 0.02em;
+        line-height: 1.8em;
+        font-family: Ubuntu-B;
+        margin-top: 10px;
+       
+       
+    }
+        
+    .section-services .single-service .part-2 .description {
+        margin-bottom: 22px;
+        font-size: 15.6px;
+        line-height: 1.8em;
+        margin-top: 15px;
+        color: #171C38;
+        font-family: Ubuntu-R;
+        
+       
+    }
+    .section-services .single-service .part-1 .web {
+        font-size: 21px;
+        letter-spacing: 0.02em;
+        line-height: 1.8em;
+        font-family: Ubuntu-B;
+        margin-top: 10px;
+    }
+    .section-services .single-service .part-2 .digital-desc {
+        margin-bottom: 22px;
+        font-size: 15.6px;
+        line-height: 1.8em;
+        margin-top: 15px;
+        color: #171C38;
+        font-family: Ubuntu-R;
+        margin-top: 20px;
+    }
+}

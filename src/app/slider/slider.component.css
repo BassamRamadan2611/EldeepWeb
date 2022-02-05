@@ -1,0 +1,56 @@
+.head-text{
+    margin-top:30%;
+    color: #FFF;
+}
+.header .head-text  h1 {
+    font-size: 70px;
+    font-weight:500;
+    font-family: Ubuntu-M;
+    position: relative
+}
+.head-text span{
+    color:#FF1C26;
+}
+.header .head-text p {
+    font-size: 27px;
+    font-family: Ubuntu-L;
+}
+
+/*Start Bottom Icons*/
+
+.bottom-icons {
+    z-index: 2;
+    align-self: end;
+   padding-top:180px;
+   padding-bottom:10px;
+}
+ .bottom-icons .contact-icons li a {
+    color: #FFF;
+    font-size: 27px;
+    padding: 10px;
+}
+ .bottom-icons .login-i {
+    font-size: 40px;
+    margin-bottom:20px;
+}
+ .login-icon li a {
+    z-index: 3;
+    padding: 10px;
+    font-size:28px;
+    color:#FFF;
+    text-decoration: none;
+    font-family: Ubuntu-B;
+}
+.login-a{
+    margin-top: 15px;
+}
+ 
+ .bottom-icons li a:hover, .header .login-icon:hover a{
+    text-decoration: none;
+    color:#FF1C26
+}
+
+/*End Bottom Icons*/
+
+
+/*End Header*/
